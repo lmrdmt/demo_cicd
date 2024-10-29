@@ -11,7 +11,7 @@ on:
 workflow_dispatch:
 
 jobs:
- build:
+ mi_hola_mundo:
  runs-on: ubuntu-latest
 
  steps:
@@ -25,4 +25,4 @@ jobs:
       # Runs a set of commands using the runners shell
 - name: Run a multi-line script
    run: |
-    ls -al $GITHUB_WORKSPACE  
+    ls -al $GITHUB_WORKSPACE
